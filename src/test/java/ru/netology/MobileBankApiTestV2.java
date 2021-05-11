@@ -16,7 +16,7 @@ class MobileBankApiTestV2 {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .header("Content-Type", "application/json; charset=UTF-8")
+                .header("Content-Type", "application/json; charset=utf-8")
                 .contentType(ContentType.JSON)
         ;
     }
